@@ -1,0 +1,16 @@
+Start (ns),Duration (ns),CorrId,GrdX,GrdY,GrdZ,BlkX,BlkY,BlkZ,Reg/Trd,StcSMem (MB),DymSMem (MB),Bytes (MB),Throughput (MB/s),SrcMemKd,DstMemKd,Device,Ctx,GreenCtx,Strm,Name
+575309422,1696,413,,,,,,,,,,1.049,618263.478,Device,,NVIDIA L20X (0),1,,7,[CUDA memset]
+683948320,30496,414,,,,,,,,,,1.049,34383.856,Pageable,Device,NVIDIA L20X (0),1,,7,[CUDA memcpy Host-to-Device]
+684081312,30560,415,,,,,,,,,,1.049,34311.504,Pageable,Device,NVIDIA L20X (0),1,,7,[CUDA memcpy Host-to-Device]
+684129279,50240,416,4,4,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+684187359,26112,417,,,,,,,,,,1.049,40156.266,Device,Pageable,NVIDIA L20X (0),1,,7,[CUDA memcpy Device-to-Host]
+687731758,11294922,427,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+702540935,11294313,440,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+717405150,11292874,453,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+732100632,11294377,466,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+746980240,11293961,479,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+761717736,11296106,492,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+776448321,11292105,505,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+791653400,11294377,518,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+806466224,11294665,531,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
+821168489,11292457,544,128,128,1,16,16,1,128,0.016,0.000,,,,,NVIDIA L20X (0),1,,7,"sgemm_V3(float *, float *, float *, int, int, int)"
