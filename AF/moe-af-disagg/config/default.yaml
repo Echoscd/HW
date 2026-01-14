@@ -1,0 +1,44 @@
+# MoE A/F Disaggregation Configuration
+
+model:
+  # 模型名称或路径
+  name: "Qwen/Qwen1.5-MoE-A2.7B"
+  # 数据类型
+  dtype: "float16"  # float16, bfloat16, float32
+  # 是否信任远程代码
+  trust_remote_code: true
+
+devices:
+  # Attention 层所在设备
+  attention: "cuda:0"
+  # Expert/MoE 层所在设备  
+  expert: "cuda:1"
+  # 单卡模式：expert 设为 "cpu" 或与 attention 相同
+
+generation:
+  max_new_tokens: 128
+  temperature: 0.7
+  top_p: 0.9
+  do_sample: true
+
+# 通信配置（预留扩展）
+communication:
+  # 通信后端: pytorch, nccl, gloo
+  backend: "pytorch"
+  # 是否异步传输
+  async_transfer: false
+
+# 日志配置
+logging:
+  level: "INFO"
+  # 是否打印每层的设备信息
+  print_device_map: true
+  # 是否统计通信时间
+  profile_communication: true
+
+# 调试配置  
+debug:
+  # 是否启用正确性检查
+  verify_output: false
+  # 随机种子
+  seed: 42

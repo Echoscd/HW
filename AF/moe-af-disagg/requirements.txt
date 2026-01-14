@@ -1,0 +1,16 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# Config
+pyyaml>=6.0
+
+# Logging & Utils
+tqdm>=4.65.0
+rich>=13.0.0
+
+# Optional: for profiling
+# py-spy
+torch-tb-profiler>=0.4.0  # Required for PyTorch Profiler in TensorBoard
+tensorboard>=2.14.0  # For PyTorch Profiler visualization
